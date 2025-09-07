@@ -1,2 +1,2 @@
 # Gilbert-Schokolade
-This is a German Website aout a fictional product.
+This is a German Website about a fictional product.
