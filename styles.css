@@ -116,7 +116,7 @@ nav {
 .products {
     display: grid;
     grid-template-rows: repeat(auto-fill, 300px);
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
 }
@@ -146,4 +146,12 @@ footer {
 }
 footer a {
     color: white;
+}
+
+@media (max-width: 600px) {
+    .product-pic-container {
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 50px;
+    }
 }
